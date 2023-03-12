@@ -1,0 +1,250 @@
+    <!---- This website is designed by Eliot @ WWW.BOSMANXYZ.XYZ --->
+    <!---- I do comissioned student artist and designer portfolios for a reduced fee. --->
+    <!---- Feel free to copy the structure, that is how I started out.  --->
+    <!---- However do know that making things yourself ultimately helps you understand and own all parts of your build.  --->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cai Zheye</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="icon" type="image/x-icon" href="img/ZC_Favicon.png">
+
+</head>
+<body>
+        <script>
+            AOS.init();
+          </script>
+    <!---- Navigation for laptop viewports -->
+
+    <nav>
+    <li onclick="downwards()">Info</li>
+    <li onclick="downwards()">Contact</li>
+    <li class="b1" onclick="index()">Switch to Index</li>
+    <li class="b2" onclick="grid()">Homepage</li>
+</nav>
+
+    <div class="container">
+    <div class="header"><br>
+    蔡 哲晔
+    (Cai Zheye) is a graphic designer from China. ❋ <br>
+    </div>
+
+    <!-- <small class="header-sbtxt">See a selection of his work below ↓</small> -->
+
+
+    <div class="feature">
+    </div>
+    <marquee loop="">该网页展示了各种类型的设计作品  ❋  This webpage hosts a selection of design work of various types  ❋  该网页展示了各种类型的设计作品  ❋  This webpage hosts a selection of design work of various types  ❋  该网页展示了各种类型的设计作品</marquee>
+    <div class="grid">
+        <div class="g-item" onclick="project(); speed();"><img class="g-img" src="img/Speed Drifters/Racetrack/Speed Drifters_15.jpg"></div>
+        <h3 class="g-txt-m">Speed Drifters</h3>
+        <!--- Mobile inset -->
+        <div class="g-item" onclick="project(); tyre();"><img class="g-img" src="img/Tyre Rubber/Posters/Tyre Rubber_13.jpg"></div>      
+        <h3 class="g-txt-m">Tyre Rubber</h3>
+        <!--- Mobile inset -->  
+        <h3 class="g-txt">Speed Drifters</h3>
+        <h3 class="g-txt">Tyre Rubber</h3>
+        <div class="g-item" onclick="project(); hole();"><img class="g-img" src="img/Watch Out! Hole Here!/WOHH_11.jpg"></div>
+        <h3 class="g-txt-m">Watch Out! Hole Here!</h3>
+        <!--- Mobile inset -->  
+        <div class="g-item" onclick="project(); factory();"><img class="g-img" src="img/Memories Of The Factory/Exhibition/MC_16.jpg"></div>
+        <h3 class="g-txt-m">Memories Of The Factory</h3>
+        <!--- Mobile inset -->
+        <h3 class="g-txt">Watch Out! Hole Here!</h3>
+        <h3 class="g-txt">Memories Of The Factory</h3>
+        <div class="g-item" onclick="project(); nightmare();"><img class="g-img" src="img/Dongba/Behind The Scenes/DIN_9.jpg"></div>
+        <h3 class="g-txt-m">Descent Into Nightmare</h3>
+        <!--- Mobile inset -->  
+        <div class="g-item" onclick="project(); picaso();"><img class="g-img" src="img/Picaso/Publication/Picasso_EDIT.jpg"></div>
+        <h3 class="g-txt-m">Picaso 字体t</h3>
+        <!--- Mobile inset -->  
+        <h3 class="g-txt">Descent Into Nightmare</h3>
+        <h3 class="g-txt">Picaso 字体t</h3>
+        <div class="g-item" onclick="project(); song();"><img class="g-img" src="img/Song/Song_EDIT.jpg"></div>
+        <h3 class="g-txt-m">Song 字体</h3>
+        <!--- Mobile inset -->  
+        <div class="g-item" onclick="project(); dongba();"><img class="g-img" src="img/Dongba/Publication/Dongba_32.jpg"></div>
+        <h3 class="g-txt-m">Dongba</h3>
+        <!--- Mobile inset -->  
+        <h3 class="g-txt">Song 字体</h3>
+        <h3 class="g-txt">Dongba</h3>
+        <div class="g-item" onclick="project(); dreams();"><img class="g-img" src="img/Dream Family/Exhibition/DFH_52.jpg"></div>
+        <h3 class="g-txt-m" style="margin-bottom: 1vh;">Home, Dreams, Happiness, Gifts, Friends</h3>
+        <!--- Mobile inset -->  
+        <div class="g-item" id="contact"><marquee class="g-m"><a href="https://instagram.com/caizheye1">Instagram @ Instagram @ Instagram @ Instagram</a></marquee><marquee class="g-m"><a href="mailto:caizheye0121@outlook.com">E-Mail @ E-Mail @ E-Mail @ E-Mail</a></marquee><marquee class="g-m"><a href="">WeChat @ WeChat @ WeChat @ WeChat</a></marquee><marquee class="g-m"><a href="">Pinterest @ Pinterest @ Pinterest</a></marquee><marquee class="g-m"><a href="">Behance @ Behance @ Behance @ Behance</a></marquee></div>
+        <h3 class="g-txt">Home, Dreams, Happiness, Gifts, Friends</h3>
+        <h3 class="g-txt" onclick="upwards()">Click to go up ↑</h3>
+    </div>
+
+</div>
+
+    <div class="project">
+        <div class="p-buttons" id="pb-top"><button onclick="grid()">Back</button>
+        <button onclick="tyre()" id="btn-tyre">Next</button>
+        <button onclick="hole()" id="btn-hole">Next</button>
+        <button onclick="factory()" id="btn-factory">Next</button>
+        <button onclick="nightmare()" id="btn-nightmare">Next</button>
+        <button onclick="picaso()" id="btn-picaso">Next</button>
+        <button onclick="song()" id="btn-song">Next</button>
+        <button onclick="dongba()" id="btn-dongba">Next</button>
+        <button onclick="dreams()" id="btn-dreams">Next</button>
+        <button onclick="speed()" id="btn-speed">Next</button>
+        </div>
+        <div class="p-header"><img class="p-img" src="img/Picaso/Publication/Picasso_EDIT.jpg"></div>
+        <div class="p-h1"><h1>Generic Title</h1></div>
+        <small class="p-s">Typography / Design</small>
+        <div class="p-txt"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti est doloremque quaerat mollitia natus, repellendus culpa assumenda veritatis! Nobis omnis corrupti ea exercitationem architecto facere atque dicta, amet similique quia!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quia error velit recusandae esse accusantium voluptatibus. Quam, similique sit aliquid molestias enim minima est dicta hic cumque error pariatur necessitatibus.</p></div>
+        <marquee class="p-marquee" behavior="scroll" direction="left" loop="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium molestias corporis, minus ipsum, ut repellendus amet ducimus ipsa exercitationem voluptatibus, sequi vero. Sint optio quae soluta minus tenetur quod quam.</marquee>
+        <div class="p-gallery">
+        <img class="p-img" id="p-img1" src="img/Picaso/Publication/Picasso_4.jpg" alt="">
+        <img class="p-img" id="p-img2" src="img/Picaso/Poster/Picasso_2.jpg" alt="">
+        <img class="p-img" id="p-img3" src="img/Picaso/Publication/Picasso_5.jpg" alt="">
+        <img class="p-img" id="p-img4" src="img/Picaso/Publication/Picasso_10.jpg" alt="">
+        <img class="p-img" id="p-img5" src="img/Picaso/Poster/Picasso_3.jpg" alt="">
+        <img class="p-img" id="p-img6" src="img/Picaso/Publication/Picasso_5.jpg" alt="">
+        <img class="p-img" id="p-img7" src="img/Picaso/Publication/Picasso_4.jpg" alt="">
+        <img class="p-img" id="p-img8" src="img/Picaso/Poster/Picasso_2.jpg" alt="">
+        <img class="p-img" id="p-img9" src="img/Picaso/Publication/Picasso_5.jpg" alt="">
+        <img class="p-img" id="p-img10" src="img/Picaso/Publication/Picasso_10.jpg" alt="">
+        <img class="p-img" id="p-img11" src="img/Picaso/Poster/Picasso_3.jpg" alt="">
+        <img class="p-img" id="p-img12" src="img/Picaso/Publication/Picasso_5.jpg" alt="">
+        <img class="p-img" id="p-img13" src="img/Picaso/Publication/Picasso_5.jpg" alt="">
+        <img class="p-img" id="p-img14" src="img/Picaso/Publication/Picasso_5.jpg" alt="">
+        <img class="p-img" id="p-img15" src="img/Picaso/Publication/Picasso_5.jpg" alt="">
+        <img class="p-img" id="p-img16" src="img/Picaso/Publication/Picasso_5.jpg" alt="">
+        <div class="p-buttons" id="pb-bottom"><button onclick="grid();">Back</button>
+            <button onclick="tyre()" id="btn-tyre">Next</button>
+            <button onclick="hole()" id="btn-hole">Next</button>
+            <button onclick="factory()" id="btn-factory">Next</button>
+            <button onclick="nightmare()" id="btn-nightmare">Next</button>
+            <button onclick="picaso()" id="btn-picaso">Next</button>
+            <button onclick="song()" id="btn-song">Next</button>
+            <button onclick="dongba()" id="btn-dongba">Next</button>
+            <button onclick="dreams()" id="btn-dreams">Next</button>
+            <button onclick="speed()" id="btn-speed">Next</button>
+        </div>
+
+    </div>
+    </div>
+
+<div class="i">
+
+    <div class="index-underlay"><div class="i-u-i"></div>
+    <div class="i-u-i"></div>
+    <div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div><div class="i-u-i"></div>
+    </div>
+    <button class="index-btn" id="idbt2" onclick="home()">Back</button>
+    <button class="index-btn" id="idbt1" onclick="upwards()">Scroll Up</button>
+
+
+    <div class="index">
+        <h1 data-aos="fade-up" class="i-h1">INDEX</h1>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Picaso/Poster/Picasso_1.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Dream Family/Book View/DFH_66.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Picaso/Poster/Picasso_1.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Song/Scarf/Song_22.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Speed Drifters/Posters/Speed Drifters_28.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Memories Of The Factory/Posters/MC_32.jpg"></div>
+        <h1 data-aos="fade-up" class="i-h1">INDEX</h1>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Dongba/Publication/Dongba_4.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Tyre Rubber/Letterprints/Tyre Rubber_48.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Dream Family/Book View/DFH_67.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Picaso/Poster/Picasso_3.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Tyre Rubber/Posters/Tyre Rubber_3.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Dongba/Publication/Dongba_8.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Dream Family/Book View/DFH_71.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Picaso/Poster/Picasso_2.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Song/Scarf/Song_23.jpg"></div>
+        <h1 data-aos="fade-up" class="i-h1">INDEX</h1>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Tyre Rubber/Posters/Tyre Rubber_26.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Memories Of The Factory/Posters/MC_33.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Dream Family/Book View/DFH_72.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Tyre Rubber/Letterprints/Tyre Rubber_54.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Picaso/Publication/Picasso_4.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Song/Scarf/Song_24.jpg"></div>
+        <h1 data-aos="fade-up" class="i-h1">INDEX</h1>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Tyre Rubber/Posters/Tyre Rubber_17.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Dream Family/Book View/DFH_73.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Watch Out! Hole Here!/WOHH_7.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Memories Of The Factory/Exhibition/MC_2.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Picaso/Publication/Picasso_5.jpg"></div>
+        <h1 data-aos="fade-up" class="i-h1">INDEX</h1>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Speed Drifters/Posters/Speed Drifters_29.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Tyre Rubber/Posters/Tyre Rubber_47.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Watch Out! Hole Here!/WOHH_1.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Memories Of The Factory/Exhibition/MC_16.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Song/Scarf/Song_26.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Dongba/Publication/Dongba_36.jpg"></div>
+        <h1 data-aos="fade-up" class="i-h1">INDEX</h1>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Song/Screenprint/Song_2.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Dream Family/Book View/DFH_66.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Picaso/Publication/Picasso_6.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Dream Family/Publication/DFH_4.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Watch Out! Hole Here!/WOHH_8.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Dream Family/Publication/DFH_21.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Speed Drifters/Posters/Speed Drifters_30.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Watch Out! Hole Here!/WOHH_6.jpg"></div>
+        <h1 data-aos="fade-up" class="i-h1">INDEX</h1>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Speed Drifters/Publication/Speed Drifters_49.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Speed Drifters/Vest/Speed Drifters_62.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Picaso/Publication/Picasso_7.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Tyre Rubber/Posters/Tyre Rubber_26.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Descent Into Nightmare/Poster/DIN_19.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Tyre Rubber/Posters/Tyre Rubber_29.jpg"></div>
+        <h1 data-aos="fade-up" class="i-h1">INDEX</h1>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Speed Drifters/Publication/Speed Drifters_49.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Picaso/Publication/Picasso_12.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Speed Drifters/Vest/Speed Drifters_69.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Picaso/Publication/Picasso_25.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Song/Screenprint/Song_9.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Picaso/Publication/Picasso_26.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Descent Into Nightmare/Poster/DIN_21.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Watch Out! Hole Here!/WOHH_9.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Speed Drifters/Posters/Speed Drifters_31.jpg"></div>
+        <h1 data-aos="fade-up" class="i-h1">INDEX</h1>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Descent Into Nightmare/Poster/DIN_18.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Speed Drifters/Racetrack/Speed Drifters_14.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Song/Screenprint/Song_10.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Speed Drifters/Racetrack/Speed Drifters_21.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Song/Screenprint/Song_11.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Dongba/Publication/Dongba_13.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Descent Into Nightmare/Poster/DIN_17.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Watch Out! Hole Here!/WOHH_10.jpg"></div>
+        <h1 data-aos="fade-up" class="i-h1">INDEX</h1>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Dream Family/Publication/DFH_17.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Descent Into Nightmare/Poster/DIN_22.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Dream Family/Publication/DFH_21.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Watch Out! Hole Here!/WOHH_23.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Dongba/Publication/Dongba_33.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Watch Out! Hole Here!/WOHH_12.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Speed Drifters/Posters/Speed Drifters_32.jpg"></div>
+        <h1 data-aos="fade-up" class="i-h1">INDEX</h1>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Dream Family/Publication/DFH_5.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Descent Into Nightmare/Poster/DIN_24.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Dream Family/Exhibition/DFH_24.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Speed Drifters/Racetrack/Speed Drifters_1.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Memories Of The Factory/Posters/MC_27.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Descent Into Nightmare/Poster/DIN_16.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Dream Family/Publication/DFH_6.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Dream Family/Publication/DFH_7.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Dongba/Publication/Dongba_13.jpg"></div>
+        <h1 data-aos="fade-up" class="i-h1">INDEX</h1>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Dream Family/Exhibition/DFH_52.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Speed Drifters/Racetrack/Speed Drifters_15.jpg"></div>
+        <div data-aos="fade-up" class="i-item"><img class="i-img" src="img/Descent Into Nightmare/Poster/DIN_26.jpg"></div>
+
+    </div>
+
+
+
+
+        </div>
+        <footer>All Rights Reserved 蔡 哲晔 (Zheye Cai) © Website designed and programmed by <a href="https://www.bosmanxyz.xyz">BOSMAN.XYZ</a> </footer>
+</body>

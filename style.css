@@ -1,0 +1,373 @@
+/* WEB ELEMENTS */ /* WEB ELEMENTS */ 
+/* WEB ELEMENTS */ /* WEB ELEMENTS */ 
+/* WEB ELEMENTS */ 
+
+/* The rows below are connected to the basic elements of the website */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    transition: all 1.2s;
+}
+
+body {
+    margin: 0;
+    font-family: 'ABC Favorit Edu';
+    background: mintcream;
+    animation: fade-in 1.2s ease;
+}
+
+button {
+    background: none; border: none;
+    font-family: 'ABC Favorit Edu';
+    text-align: center;
+    font-size: 55pt;
+    border: solid 0.5px black;
+    border-radius: 6vw;
+    background: mintcream;
+}
+
+#btn-speed,
+#btn-tyre,
+#btn-hole,
+#btn-factory,
+#btn-nightmare,
+#btn-picaso,
+#btn-song,
+#btn-dongba,
+#btn-dreams {
+    display: none;
+}
+
+button:hover {
+    background: black;
+    color: white;
+    transition: all 1.2s;
+}
+
+footer {
+    text-align: center;
+}
+
+marquee {
+    border: solid 0.5px black;
+    border-radius: 10vw;
+    height: 10vh;
+    font-size: 60pt;
+    background: mintcream;
+
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1%;
+}
+
+li {
+    background: mintcream;
+    display: inline-block;
+    border-radius: 100vw;
+    border: solid 0.5px;
+    padding: 10pt;
+}
+
+li:hover {
+    background: black; color: white;
+    transition: all 1.2s;
+    text-decoration: dotted underline 4px;
+}
+
+/* SITE BLOCKS */ /* SITE BLOCKS */ /* SITE BLOCKS */ /* SITE BLOCKS */ /* SITE BLOCKS */ 
+/* SITE BLOCKS */ /* SITE BLOCKS */ /* SITE BLOCKS */ /* SITE BLOCKS */ /* SITE BLOCKS */ 
+/* SITE BLOCKS */ /* SITE BLOCKS */ /* SITE BLOCKS */ /* SITE BLOCKS */ /* SITE BLOCKS */ 
+/* SITE BLOCKS */ /* SITE BLOCKS */ /* SITE BLOCKS */ /* SITE BLOCKS */ /* SITE BLOCKS */ 
+
+/* The rows below define the grid, index and clickable options on the web page. */
+
+.b2 {
+    display: none;
+}
+
+.p-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.feature {
+    position: absolute;
+    z-index: -1;
+    left: 16vw;
+    top: 10vh;
+    width: 65vw; height: 75vh;
+    background: rgb(198, 198, 198); 
+    animation: fire 1s infinite;
+}
+
+.f-ol {
+    display: grid;
+    grid-template-columns: repeat(10, 0.095fr);
+    list-style: none;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50vh 4vh 50vh 4vh 50vh 4vh;
+    border: solid 0.5px black;
+    border-radius: 2vw 2vh;
+}
+
+.g-item {
+      overflow: hidden;
+      border-left: solid 0.25px black;
+}
+
+.g-txt, .g-txt-m {
+    margin-top: 1vh;
+    height: 2vh;
+    width: 45vw;
+    text-align: center;
+    border-left: solid 0.25px black;
+}
+
+.g-txt-m {
+    display: none;
+}
+
+.g-img {
+    width: 100%; height: 100%;
+    filter: grayscale(35%) url('#teal-lightgreen');
+}
+
+.g-m:hover{
+    background: black;
+    color: white;
+}
+
+.header {
+    height: 90vh;
+    font-size: 130pt;
+    line-height: 100%;
+    text-align: justify;
+    letter-spacing: -10pt;
+    margin-left: 4vw; margin-right: 4vw;
+}
+
+.header-sbtxt {
+    margin-left: 40vw;
+    font-size: 12pt;
+    letter-spacing: 0pt;
+}
+
+.i-img {
+    max-width: 100%; max-height: 100%;
+}
+
+
+.index {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10%;
+    width: 1fr;
+    display: grid;
+    grid-gap: 2vh;
+    position: relative;
+}
+
+.index-underlay {
+    border-radius: 10vw;
+    grid-template-columns: 100vw;
+    height: 1690vh;
+    position: absolute;
+    display: grid;
+    border: solid 0.25px black;
+    z-index: -1;
+    box-shadow: inset black 1vh 2vw 2vh 1vw;
+}
+.i-item {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.i-h1 {
+    font-size: 100pt;
+    font-family: 'ABC Favorit Edu';
+    font-weight: 1;
+}
+
+.i-txt {
+    line-height: 6pt;
+    margin-left: 2vw;
+    text-align: center;
+}
+
+.index-btn {
+    display: inline-block;
+    width: 5vw; height: 5vh;
+    margin-left: 1vw;
+    font-size: 12pt;
+    z-index: 2;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.i {
+    display: none;
+}
+
+#idbt1, #idbt2 {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.project {
+    display: none;
+}
+
+.p-txt, .p-h1, .p-s {
+    margin-left: 2%; margin-right: 2%;
+}
+
+.p-txt {
+    font-size: 25pt;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    text-align: left;
+}
+
+.p-h1 {
+    font-size: 70pt;
+    margin-bottom: -10vh;
+}
+
+.p-img {
+    max-width: 100%; max-height: 80;
+    border: solid 0.5px black;
+}
+
+.p-gallery {
+    display: grid;
+    grid-gap: 0vw;
+    grid-template-columns: 1fr 1fr;
+    animation: fire 6s infinite ease;
+}
+
+.p-s {
+    margin-top: 10vh;
+}
+
+#pb-top {
+    margin-top: -1.5vh;
+}
+
+/* DEVICE ADAPTIONS */ /* DEVICE ADAPTIONS */ /* DEVICE ADAPTIONS */ /* DEVICE ADAPTIONS */ 
+/* DEVICE ADAPTIONS */ /* DEVICE ADAPTIONS */ /* DEVICE ADAPTIONS */ /* DEVICE ADAPTIONS */ 
+
+@media screen and (max-width: 600px) {
+    .grid{grid-template-columns: 1fr; grid-template-rows: 50vh 2vh;}
+    .g-txt-m {display: inline; font-size: 12pt; margin: 0; width: 99vw;}
+    .i-item{width: 97vw;}
+    .p-gallery {grid-template-columns: 1fr;}
+    .g-txt{display: none; }
+    .header {font-size: 75pt;}
+    .header-sbtxt {margin-right: 15vw;}
+    #index-btn {
+        width: 20vw; height: 5vh;
+    }
+}
+
+/* IMPORTS */ /* IMPORTS */ /* IMPORTS */ /* IMPORTS */ /* IMPORTS */ /* IMPORTS */
+/* IMPORTS */ /* IMPORTS */ /* IMPORTS */ /* IMPORTS */ /* IMPORTS */ /* IMPORTS */
+
+/* The rows below import the fonts used on the site, and also loads any animation
+active on the site on interaction */
+
+@keyframes gallery {
+    0% {
+        background: darkslategray;
+    }
+    25% {
+        background: thistle;
+    }
+    50% {
+        background: olivedrab;
+    }
+    75% {
+        background: wheat;
+    }
+    100% {
+        background: mediumaquamarine;
+    }
+}
+
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes linedrop {
+    0% {
+        letter-spacing: 2pt;
+    }
+    50% {
+        letter-spacing: -1pt;
+    }
+    100% {
+        letter-spacing: 0pt;
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fire {
+    0% {
+        background: rgb(255,246,194);
+        background: linear-gradient(175deg, rgba(255,246,194,1) 0%, rgba(255,99,66,1) 35%, rgba(236,229,209,1) 49%, rgba(255,246,194,1) 59%, rgba(236,229,209,1) 76%, rgba(255,99,66,1) 99%);   
+    }
+    25% {
+        background: rgb(255,246,194);
+        background: linear-gradient(248deg, rgba(255,246,194,1) 0%, rgba(255,99,66,1) 35%, rgba(236,229,209,1) 49%, rgba(255,246,194,1) 59%, rgba(236,229,209,1) 76%, rgba(255,99,66,1) 99%);
+    }
+    50% {
+        background: rgb(255,246,194);
+        background: radial-gradient(circle, rgba(255,246,194,1) 0%, rgba(255,99,66,1) 35%, rgba(236,229,209,1) 49%, rgba(255,246,194,1) 59%, rgba(236,229,209,1) 76%, rgba(255,99,66,1) 99%);
+
+    }
+    75% {
+        background: rgb(255,246,194);
+        background: radial-gradient(circle, rgba(255,246,194,1) 0%, rgba(255,99,66,1) 46%, rgba(236,229,209,1) 55%, rgba(255,246,194,1) 59%, rgba(236,229,209,1) 76%, rgba(255,99,66,1) 99%);
+    }
+    100% {
+        background: rgb(255,246,194);
+        background: linear-gradient(175deg, rgba(255,246,194,1) 0%, rgba(255,99,66,1) 35%, rgba(236,229,209,1) 49%, rgba(255,246,194,1) 59%, rgba(236,229,209,1) 76%, rgba(255,99,66,1) 99%);   
+    }
+}
+
+@font-face {
+    font-family: 'ABC Favorit Edu';
+    src: url('fonts/ABCFavorit-Light.woff2') format('woff2'),
+        url('fonts/ABCFavorit-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
